@@ -30,8 +30,10 @@ jobs:
         run: npm install -g elm
       - name : Check the list  
         run: ls
-      - name : Install elm http 
-        run:  elm install elm/http
+      - name : Install elm-format
+        run:  npm install elm-format -g
+      - name : Linting 
+        run:  elm-format Kompas_UI/Home.elm
 
         
       
