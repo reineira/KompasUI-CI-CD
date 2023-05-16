@@ -30,8 +30,13 @@ jobs:
         run: npm install -g elm
       - name : Check the list  
         run: ls
-      - name : Install elm http 
-        run:  elm install elm/http
+      - uses: sparksp/elm-format-action@v1
+        with:
+          elm_files: |
+           Kompas_IU/Home.elm
+           Kompas_UI/Document.elm
+          
+ 
 
         
       
