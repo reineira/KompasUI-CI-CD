@@ -28,6 +28,8 @@ jobs:
           node-version: '14'
       - name : Install Elm 
         run: npm install -g elm
+      - name : Install project dependencies 
+        run: elm install elm/http
       
 
   # This workflow contains a single job called "build"
