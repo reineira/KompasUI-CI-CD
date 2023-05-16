@@ -30,6 +30,9 @@ jobs:
         run: npm install -g elm
       - name : Check the list  
         run: ls
+      - name : Install elm http 
+        run:  elm install elm/http
+
         
       
 
