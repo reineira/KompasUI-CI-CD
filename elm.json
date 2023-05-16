@@ -1,6 +1,6 @@
 {
   "type": "application",
-  "source-directories": ["src", "Kompas_UI"],
+  "source-directories": ["Kompas_UI"],
   "elm-version": "0.19.1",
   "dependencies": {
     "direct": {
